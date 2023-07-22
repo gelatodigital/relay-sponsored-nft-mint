@@ -34,7 +34,7 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       forking: {
-        url: "https://goerli.base.org",
+        url: "https://rpc.goerli.linea.build",
       },
     },
     baseGoerli: {
